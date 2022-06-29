@@ -1,7 +1,8 @@
 {
  "manifest_version": 3,
- "name": "Coding Train Extension 2",
+ "name": "Coding Train Extension 3",
  "version": "0.1",
+ "permissions": ["scripting"],
  "content_scripts": [
      {
          "matches" :[
@@ -19,4 +20,3 @@
      "service_worker":"background.js"
  }
 }
-
